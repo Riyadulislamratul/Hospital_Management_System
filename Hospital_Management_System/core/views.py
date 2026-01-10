@@ -10,3 +10,6 @@ def news(request):
 
 def service(request):
     return render(request, 'service.html')
+
+def doctors(request):
+    return render(request, 'doctors.html')
