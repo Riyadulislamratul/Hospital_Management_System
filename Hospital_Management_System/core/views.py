@@ -19,3 +19,6 @@ def contact(request):
 
 def appointment(request):
     return render(request, 'appoinment.html')
+
+def about(request):
+    return render(request, 'about.html')
