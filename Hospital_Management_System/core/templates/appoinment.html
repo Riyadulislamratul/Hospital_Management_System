@@ -1,0 +1,92 @@
+{% extends "base.html" %}
+
+{% block title %}Appointment Page{% endblock title %}
+
+{% block content %}
+
+   <!-- ================= PAGE BANNER ================= -->
+<section class="page-banner appointment-banner">
+    <div class="page-banner-overlay">
+        <div class="container banner-content">
+
+            <span class="breadcrumb">Home / Appointment</span>
+            <h1>Book an Appointment</h1>
+
+        </div>
+    </div>
+</section>
+
+<!-- ================= APPOINTMENT MAIN ================= -->
+<section class="appointment-main">
+    <div class="container appointment-wrapper">
+
+        <!-- LEFT SIDE -->
+        <div class="appointment-left">
+
+            <h2>Book an Appointment</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Quisque placerat scelerisque tortor ornare ornare.
+                Convallis felis vitae tortor augue. Velit nascetur proin
+                massa in. Consequat faucibus porttitor enim et.
+            </p>
+
+            <!-- FORM -->
+            <div class="appointment-form-box">
+                <form>
+
+                    <div class="form-grid">
+                        <input type="text" placeholder="Name">
+                        <input type="text" placeholder="Gender">
+                        
+
+                        <input type="email" placeholder="Email">
+                        <input type="text" placeholder="Phone">
+
+                        <input type="date">
+                        <input type="time">
+
+                        <select><option>Doctor</option></select>
+                        <select><option>Department</option></select>
+                    </div>
+
+                    <textarea placeholder="Message"></textarea>
+
+                    <button type="submit">SUBMIT</button>
+
+                </form>
+            </div>
+
+        </div>
+
+        <!-- RIGHT SIDE -->
+        <div class="schedule-box">
+
+            <h3>Schedule hours</h3>
+
+            <ul class="schedule-list">
+                <li><span>Monday</span><span>09:00 AM - 07:00 PM</span></li>
+                <li><span>Tuesday</span><span>09:00 AM - 07:00 PM</span></li>
+                <li><span>Wednesday</span><span>09:00 AM - 07:00 PM</span></li>
+                <li><span>Thursday</span><span>09:00 AM - 07:00 PM</span></li>
+                <li><span>Friday</span><span>09:00 AM - 07:00 PM</span></li>
+                <li><span>Saturday</span><span>09:00 AM - 07:00 PM</span></li>
+                <li class="closed"><span>Sunday</span><span>Closed</span></li>
+            </ul>
+
+            <div class="schedule-divider"></div>
+
+            <div class="schedule-emergency">
+                <i class="fa-solid fa-phone"></i>
+                <div>
+                    <small>Emergency</small>
+                    <p>(237) 681-812-255</p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+{% endblock content %}
