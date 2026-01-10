@@ -1,0 +1,89 @@
+<!-- ================= TOP INFO BAR ================= -->
+<div class="top-info-bar">
+    <div class="container topbar-inner">
+
+        <div class="logo"><a href="{% url 'home' %}">MEDDICAL</a></div>
+
+        <div class="top-info-items">
+            <div class="top-item">
+                <i class="fa-solid fa-phone"></i>
+                <div>
+                    <small>EMERGENCY</small>
+                    <p>(237) 681-812-255</p>
+                </div>
+            </div>
+
+            <div class="top-item">
+                <i class="fa-solid fa-clock"></i>
+                <div>
+                    <small>WORK HOUR</small>
+                    <p>09:00 - 20:00 Everyday</p>
+                </div>
+            </div>
+
+            <div class="top-item">
+                <i class="fa-solid fa-location-dot"></i>
+                <div>
+                    <small>LOCATION</small>
+                    <p>0123 Some Place</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!-- ================= NAVBAR ================= -->
+<header class="navbar">
+    <div class="container nav-content">
+        <ul class="nav-links">
+            <li >
+                <a href="{% url 'home' %}">Home</a>
+            </li>
+            <li>
+                <a href="">About Us</a>
+            </li>
+            <li>
+                <a href="">Services</a>
+            </li>
+            <li>
+                <a href="">Doctors</a>
+            </li>
+            <li>
+                <a href="">News</a>
+            </li>
+            <li>
+                <a href="">Contact</a>
+            </li>
+        </ul>
+
+        <div class="nav-right">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <a href="" class="btn">Appointment</a>
+            <i class="fa-solid fa-bars menu-btn" id="openMenu"></i>
+        </div>
+    </div>
+</header>
+
+
+<!-- ================= MOBILE MENU ================= -->
+<div class="mobile-menu" id="mobileMenu">
+    <div class="menu-header">
+        <span class="logo">MEDDICAL</span>
+        <div>
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <i class="fa-solid fa-xmark" id="closeMenu"></i>
+        </div>
+    </div>
+
+    <ul class="menu-links">
+        <li class="active">Home</li>
+        <li>About us</li>
+        <li>Services</li>
+        <li>Doctors</li>
+        <li>News</li>
+        <li>Contact</li>
+    </ul>
+
+    <a href="#" class="menu-appointment">Appointment</a>
+</div>
