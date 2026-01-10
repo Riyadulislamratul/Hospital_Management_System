@@ -7,3 +7,6 @@ def home(request):
 
 def news(request):
     return render(request, 'news.html')
+
+def service(request):
+    return render(request, 'service.html')
