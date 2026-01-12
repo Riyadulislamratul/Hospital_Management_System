@@ -1,8 +1,9 @@
 <!-- ================= TOP INFO BAR ================= -->
+{% load static %}
 <div class="top-info-bar">
     <div class="container topbar-inner">
 
-        <div class="logo"><a href="{% url 'home' %}">MEDDICAL</a></div>
+        <div class="logo"><a href="{% url 'home' %}"><img src="{% static 'core/image/Meddical.svg' %}" alt=""></a></div>
 
         <div class="top-info-items">
             <div class="top-item">
