@@ -1,5 +1,5 @@
 {% extends "base.html" %}
-
+{% load static %}
 {% block title %}Services Page{% endblock title %}
 
 {% block content %}
@@ -23,7 +23,7 @@
             <!-- Card -->
             <div class="service-card ">
                 <div class="service-img">
-                    <img src="/static/hospital_app/website/picture/cc3.jpg" alt="Service">
+                    <img src="{% static 'core/image/hero.png' %}" alt="Service">
                     <div class="service-overlay">
                         <i class="fa-solid fa-bandage"></i>
                     </div>

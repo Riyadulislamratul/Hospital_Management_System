@@ -144,12 +144,12 @@ ul.nav-links li a {
             rgba(244, 246, 251, 0.6) 70%,
             rgba(244, 246, 251, 0.2) 100%
         ),
-        url("picture/Group 94(1).png");
-
+        url("../image/hero.png");
     background-repeat: no-repeat;
     background-position: right bottom;
     background-size: contain;
 }
+
 
 .hero-content {
     width: 100%;
@@ -191,7 +191,7 @@ ul.nav-links li a {
                 rgba(244, 246, 251, 0.9),
                 rgba(244, 246, 251, 0.9)
             ),
-            url("picture/Group 94(1).png"
+            url("../image/hero.png"
         );
     }}
 /* ================= MOBILE VIEW ================= */
@@ -204,7 +204,7 @@ ul.nav-links li a {
                 rgba(255, 255, 255, 0.88),
                 rgba(255, 255, 255, 0.88)
             ),
-            url("picture/Group 94(1).png");
+            url("../image/hero.png");
 
         background-position: center;
         background-size: cover;
@@ -519,7 +519,7 @@ ul.nav-links li a {
 .team-image {
     width: 100%;
     overflow: hidden;
-    border-radius: 12px;
+    border-radius: 3px;
 }
 
 .team-image img {
@@ -837,7 +837,7 @@ ul.nav-links li a {
             rgba(255,255,255,0.85),
             rgba(255,255,255,0.85)
         ),
-        url("picture/doctor.png") center/cover no-repeat;
+        url("../image/bookappoinment.png") center/cover no-repeat;
     padding: 120px 0;
 }
 
